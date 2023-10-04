@@ -47,22 +47,56 @@
 // year."
 
 
-const year = prompt('Enter a year: ')
-  checkLeapYear(year);
+// const year = prompt('Enter a year: ')
+//   checkLeapYear(year);
 
-function checkLeapYear(year){
+// function checkLeapYear(year){
     
     
-    if((0 == year % 4) && (0 != year % 100)||(0 == year % 400)){
+//     if((0 == year % 4) && (0 != year % 100)||(0 == year % 400)){
         
-       console.log(year + ' is a leap year');
-    }
-    else{
-        console.log(year + ' it is not leap year ')
-    }
+//        console.log(year + ' is a leap year');
+//     }
+//     else{
+//         console.log(year + ' it is not leap year ')
+//     }
     
-}
+// }
+      
+// Even or Odd numbers:
 
+// let number = prompt("Enter a number : ")
+// if(number % 2 == 0){
+//     console.log("The number is even")
+// } else{
+//     console.log("The number is Odd")
+// }
+
+// ex: 421 
+// it is odd number
+
+// Using Ternary Operator:
+
+// const number = prompt("Enter a number: ")
+
+// const result = (number % 2 == 0) ? "even" : "odd" ;
+
+// //nsole.log("The number is ${result}.")
+
+// console.log(`The number is ${result}.`);
+
+// if a number is Positive, Negative, or Zero :
+
+// let number = prompt("Enter a number: ")
+// if(number>0){
+//     console.log("The number is positive")
+// }
+// else if(number == 0){
+//     console.log("The number is equal")
+// }
+// else {
+//     console.log("The number is negitive")
+// }
 
 
 
@@ -78,17 +112,32 @@ function checkLeapYear(year){
 
 
 
-let num = prompt("enter the number: ")
-if(num>10){
-    console.log("the number is retun")
-}
-else if(num<10){
-    console.log("the number is equal")
-}
-else{
-    console.log("the number is -ve")
-}
-console.log("complete output")
+// let num = prompt("enter the number: ")
+// if(num>10){
+//     console.log("the number is retun")
+// }
+// else if(num<10){
+//     console.log("the number is equal")
+// }
+// else{
+//     console.log("the number is -ve")
+// }
+// console.log("complete output")
 
+
+
+// Greeting :
+
+// let time =prompt("Enter a time")
+//  let time =" "
+// if(time <= 11){
+//     console.log("Good morning")
+// }
+// else if(time <= 17){
+//     console.log("Good afternoon")
+// }
+// else{
+//     console.log("Good night")
+// }
 
 
