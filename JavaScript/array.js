@@ -5,10 +5,10 @@
 // console.log(num)
 
 //new array varible
-// var movies = new Array('nani','july','mass','shivam','satyam')
-// console.log(movies)
-// var movies = []
-// console.log(movies)
+var movies = new Array('nani','july','mass','shivam','satyam')
+console.log(movies)
+var movies = []
+console.log(movies)
 
 
 // identienfiy index values
