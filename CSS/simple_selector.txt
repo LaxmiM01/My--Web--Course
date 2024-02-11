@@ -1,0 +1,24 @@
+In simple selector different types are there:
+1.With id
+#id1{
+    prop:val;
+}
+2.With class
+.class1{
+    prop:val;
+}
+3.All elements
+*{
+    prop:val;
+}
+4.With elements
+p{
+    prop:val;
+}
+h1{
+    prop:val;
+}
+5.select only p elements With classname = class1
+p.class1{
+    prop:val;
+}
