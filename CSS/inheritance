@@ -1,0 +1,5 @@
+parent element ---> p
+child element ---> child
+
+*if c has not separate styling then p styling is followes
+*if c has separate styling then p styling is not followes
