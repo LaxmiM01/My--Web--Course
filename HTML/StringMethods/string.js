@@ -99,7 +99,73 @@
 
 //10. How do you check if a string starts with a specific prefix in JavaScript?
 
-let name = "10"
-let paded = name.padStart(10,"*")
-console.log(paded)
+// function padEmailWithAsterisks(email, desiredLength) {
+//     // Split the email into username and domain parts
+//     const [username, domain] = email.split('@');
+
+//     // Calculate the padding length for username
+//     const usernamePaddingLength = Math.max(0, desiredLength - username.length);
+
+//     // Generate padding with asterisks
+//     const usernamePadding = '*'.repeat(usernamePaddingLength);
+
+//     // Combine padded username with the domain
+//     const paddedEmail = username + usernamePadding + '@' + domain;
+
+//     return paddedEmail;
+// }
+
+// // Example usage:
+// const originalEmail = "example@example.com";
+// const paddedEmail = padEmailWithAsterisks(originalEmail, 20);
+// console.log(paddedEmail); // Output: "example*******@example.com"
+
+// let email = "manpatti.laxmi@gmail.com"
+// let firsthalf = email.slice(0,8)
+// console.log(firsthalf)
+// let secondhalf = firsthalf.padEnd(14, "*")
+// console.log(secondhalf)
+// let thirdhalf = email.slice(14)
+// console.log(thirdhalf)
+// let result = secondhalf.concat(thirdhalf)
+// console.log(result)
+// console.log(secondhalf + thirdhalf)
+
+
+// var email = "ragirirahulkumar@gmail.com"
+// let name = email.slice(11,16)
+// console.log(name)                   //o/p: kumar
+
+// let padding = name.padStart(16, "*")
+// console.log(padding)                  //  O/P :  ***********kumar
+
+// let remainingPart = email.slice(16)
+// console.log(remainingPart)              // O/P : @gmail.com
+
+// let output = padding.concat(remainingPart)
+// console.log(output)                        // O/P : ***********kumar@gmail.com
+
+
+// var email = "ragirirahulkumar@gmail.com"
+// let name = email.slice(11,16)
+// console.log(name)                   //o/p: kumar
+
+// let padding = name.padStart(16, "*")
+// console.log(padding)                      // O/P : ***********kumar
+
+// var endPadding = padding.padEnd(16,22)
+// console.log(endPadding)                    // O/P : ***********kumar
+
+// let pad = endPadding.padEnd(22,"*")
+// console.log(pad)                           // O/P : ***********kumar******
+
+// let remainingPart = email.slice(22)
+// console.log(remainingPart)               // O/P : .com
+
+// let output = pad.concat(remainingPart)
+// console.log(output)                        // O/P : ***********kumar******.com
+
+
+
+
 
